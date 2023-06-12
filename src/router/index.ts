@@ -28,6 +28,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'PiniaText',
     component:()=>import('../views/pinia/PiniaText.vue'),
   },
+  {
+    path: '/SlotText',
+    name: 'SlotText',
+    component:()=>import('../views/slot/SlotText.vue'),
+  },
 ]
 
 const router = createRouter({

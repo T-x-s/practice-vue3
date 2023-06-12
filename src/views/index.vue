@@ -13,7 +13,7 @@ const buttons = [
   { type: 'primary', text: 'ref与parent', size: 'large', push: '/RefFather' },
   { type: 'success', text: 'ProvideInjectTest', size: 'large', push: '/ProvideInjectTest' },
   { type: 'info', text: 'Pinia', size: 'large', push: '/PiniaText' },
-  { type: 'warning', text: 'warning', size: 'large', push: '' },
+  { type: 'warning', text: 'Slot', size: 'large', push: '/SlotText' },
   { type: 'danger', text: 'danger', size: 'large', push: '' },
 ] as const
 
