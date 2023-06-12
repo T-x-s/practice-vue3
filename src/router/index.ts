@@ -18,6 +18,16 @@ const routes: Array<RouteRecordRaw> = [
     name: 'RefFather',
     component:()=>import('../views/ref与$parent/RefFather.vue'),
   },
+  {
+    path: '/ProvideInjectTest',
+    name: 'ProvideInjectTest',
+    component:()=>import('../views/provide-inject/ProvideInjectTest.vue'),
+  },
+  {
+    path: '/PiniaText',
+    name: 'PiniaText',
+    component:()=>import('../views/pinia/PiniaText.vue'),
+  },
 ]
 
 const router = createRouter({

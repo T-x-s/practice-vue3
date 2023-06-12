@@ -11,8 +11,8 @@ console.log(router);
 const buttons = [
   { type: '', text: 'useAttrs', size: 'large', push: '/useAttrs' },
   { type: 'primary', text: 'ref与parent', size: 'large', push: '/RefFather' },
-  { type: 'success', text: 'success', size: 'large', push: '' },
-  { type: 'info', text: 'info', size: 'large', push: '' },
+  { type: 'success', text: 'ProvideInjectTest', size: 'large', push: '/ProvideInjectTest' },
+  { type: 'info', text: 'Pinia', size: 'large', push: '/PiniaText' },
   { type: 'warning', text: 'warning', size: 'large', push: '' },
   { type: 'danger', text: 'danger', size: 'large', push: '' },
 ] as const

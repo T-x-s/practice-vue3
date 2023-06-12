@@ -6,10 +6,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import zhCn from "element-plus/lib/locale/lang/zh-cn";//国际化
-import { createPinia } from 'pinia'
-
-// 实例化 Pinia
-const pinia = createPinia()
+import pinia from './store'
 
 const app = createApp(App);
 app.use(ElementPlus, { locale: zhCn }).use(router).use(pinia).mount('#app')
