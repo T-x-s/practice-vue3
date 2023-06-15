@@ -33,6 +33,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'SlotText',
     component:()=>import('../views/slot/SlotText.vue'),
   },
+  {
+    path: '/Render',
+    name: 'Render',
+    component:()=>import('../views/render/index.vue'),
+  },
 ]
 
 const router = createRouter({

@@ -14,7 +14,7 @@ const buttons = [
   { type: 'success', text: 'ProvideInjectTest', size: 'large', push: '/ProvideInjectTest' },
   { type: 'info', text: 'Pinia', size: 'large', push: '/PiniaText' },
   { type: 'warning', text: 'Slot', size: 'large', push: '/SlotText' },
-  { type: 'danger', text: 'danger', size: 'large', push: '' },
+  { type: 'danger', text: 'Render', size: 'large', push: '/Render' },
 ] as const
 
 function handler(params: any) {
